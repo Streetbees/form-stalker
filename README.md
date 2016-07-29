@@ -5,6 +5,7 @@ Some missing methods like editing or deleting a form will be added along the way
 [![Code Climate](https://codeclimate.com/github/Streetbees/form-stalker/badges/gpa.svg)](https://codeclimate.com/github/Streetbees/form-stalker)
 [![Test Coverage](https://codeclimate.com/github/Streetbees/form-stalker/badges/coverage.svg)](https://codeclimate.com/github/Streetbees/form-stalker/coverage)
 [![Build Status](https://travis-ci.org/Streetbees/form-stalker.svg?branch=master)](https://travis-ci.org/Streetbees/form-stalker)
+[![Gem Version](https://badge.fury.io/rb/form_stalker.svg)](https://badge.fury.io/rb/form_stalker)
 
 ## 1) Usage
 Create an initializer and set your your formstack oauth token.
