@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.formstack.com/api/v2/form/-1.json?oauth_token=valid_oauth_token
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.formstack.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Fri, 29 Jul 2016 14:12:02 GMT
+      P3p:
+      - CP="CURa ADMa DEVa PSAo PSDo OUR BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI
+        DSP COR"
+      Server:
+      - nginx
+      Set-Cookie:
+      - FormstackAdmin=57sr0dp842igbclka8btmda491; path=/api/; secure; HttpOnly
+      - rgemail=subs%40streetbees.com; expires=Sun, 28-Aug-2016 14:12:02 GMT; Max-Age=2592000
+      - rgfirstname=Queen; expires=Sun, 28-Aug-2016 14:12:02 GMT; Max-Age=2592000
+      - rgfullname=Bee; expires=Sun, 28-Aug-2016 14:12:02 GMT; Max-Age=2592000
+      - rgisanonymous=false; expires=Sun, 28-Aug-2016 14:12:02 GMT; Max-Age=2592000
+      - rgisanonymous=false; expires=Sun, 28-Aug-2016 14:12:02 GMT; Max-Age=2592000
+      - rgisanonymous=true; expires=Sun, 28-Aug-2016 14:12:02 GMT; Max-Age=2592000
+      - rguserid=642682; expires=Sun, 28-Aug-2016 14:12:02 GMT; Max-Age=2592000
+      - rguserid=d56eaa23-042a-4a91-84c3-3b6931b9db00; expires=Sun, 28-Aug-2016 14:12:02
+        GMT; Max-Age=2592000
+      - rguuid=false; expires=Sun, 28-Aug-2016 14:12:02 GMT; Max-Age=2592000
+      - rguuid=true; expires=Sun, 28-Aug-2016 14:12:02 GMT; Max-Age=2592000
+      X-Robots-Tag:
+      - noindex, nofollow
+      Content-Length:
+      - '51'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status":"error","error":"The form was not found"}'
+    http_version:
+  recorded_at: Fri, 29 Jul 2016 14:12:03 GMT
+recorded_with: VCR 3.0.3

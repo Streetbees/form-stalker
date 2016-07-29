@@ -1,0 +1,11 @@
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+AllCops:
+  DisplayCopNames: true
+  Exclude:
+    - 'Gemfile*'
+    - '*.gemspec'
+
+Documentation:
+  Enabled: false

@@ -1,0 +1,97 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.formstack.com/api/v2/form/2178204/field.json?oauth_token=valid_oauth_token
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.formstack.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Fri, 29 Jul 2016 14:12:04 GMT
+      P3p:
+      - CP="CURa ADMa DEVa PSAo PSDo OUR BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI
+        DSP COR"
+      Server:
+      - nginx
+      Set-Cookie:
+      - FormstackAdmin=v4t1tmg5nii9rqvvtmdjs688i0; path=/api/; secure; HttpOnly
+      - rgemail=subs%40streetbees.com; expires=Sun, 28-Aug-2016 14:12:04 GMT; Max-Age=2592000
+      - rgfirstname=Queen; expires=Sun, 28-Aug-2016 14:12:04 GMT; Max-Age=2592000
+      - rgfullname=Bee; expires=Sun, 28-Aug-2016 14:12:04 GMT; Max-Age=2592000
+      - rgisanonymous=false; expires=Sun, 28-Aug-2016 14:12:04 GMT; Max-Age=2592000
+      - rgisanonymous=false; expires=Sun, 28-Aug-2016 14:12:04 GMT; Max-Age=2592000
+      - rgisanonymous=true; expires=Sun, 28-Aug-2016 14:12:04 GMT; Max-Age=2592000
+      - rguserid=642682; expires=Sun, 28-Aug-2016 14:12:04 GMT; Max-Age=2592000
+      - rguserid=f630ba0f-52ee-4cce-9a49-798de1d31a1b; expires=Sun, 28-Aug-2016 14:12:04
+        GMT; Max-Age=2592000
+      - rguuid=false; expires=Sun, 28-Aug-2016 14:12:04 GMT; Max-Age=2592000
+      - rguuid=true; expires=Sun, 28-Aug-2016 14:12:04 GMT; Max-Age=2592000
+      X-Robots-Tag:
+      - noindex, nofollow
+      Content-Length:
+      - '2166'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"id":"37314714","label":"Short Answer","hide_label":"0","description":"Here
+        is a sample tooltip","name":"short_answer","type":"text","options":"","required":"1","uniq":"0","hidden":"0","readonly":"0","colspan":"1","sort":"0","default":"","text_size":50,"maxlength":0,"placeholder":"What
+        is your short answer?"},{"id":"37314722","label":"Longer Text Answer","hide_label":"0","description":"","name":"longer_text_answer","type":"textarea","options":"","required":"1","uniq":"0","hidden":"0","readonly":"0","colspan":"1","sort":"1","default":"","rows":10,"cols":50,"maxlength":0,"placeholder":""},{"id":"40963803","label":"Date\/Time","hide_label":"0","description":"","name":"datetime","type":"datetime","options":"","required":"0","uniq":"0","hidden":"0","readonly":"0","colspan":"1","sort":"2","default":{"default":null},"date_format":"M
+        d, Y","time_format":"h:i A","year_minus":5,"year_plus":5},{"id":"44337087","label":"Select
+        (Radio Buttons) - Optional","hide_label":"0","description":"","name":"select_radio_buttons__optional","type":"radio","options":[{"label":"Option1","value":"Option1"},{"label":"Option2","value":"Option2"},{"label":"Option3","value":"Option3"}],"required":"0","uniq":"0","hidden":"0","readonly":"0","colspan":"1","sort":"3","default":"","option_layout":"vertical","option_other":"0","randomize_options":0,"option_store":"value","option_show_values":0},{"id":"37314734","label":"Select
+        (Radio Buttons) - Required","hide_label":"0","description":"","name":"select_radio_buttons__required","type":"radio","options":[{"label":"Option1","value":"Option1"},{"label":"Option2","value":"Option2"},{"label":"Option3","value":"Option3"}],"required":"1","uniq":"0","hidden":"0","readonly":"0","colspan":"1","sort":"4","default":"","option_layout":"vertical","option_other":"1","randomize_options":0,"option_store":"value","option_show_values":0},{"id":"37314736","label":"Select
+        (Dropdown List)","hide_label":"0","description":"","name":"select_dropdown_list","type":"select","options":[{"label":"Option1","value":"Option1"},{"label":"Option2","value":"Option2"},{"label":"Option3","value":"Option3"}],"required":"0","uniq":"0","hidden":"0","readonly":"0","colspan":"1","sort":"5","default":"","select_size":1,"option_layout":"vertical","option_other":0,"randomize_options":0,"option_store":"value","option_show_values":0},{"id":"40952921","label":"Show
+        Dropdown (if Dropdown is not Option1)","hide_label":"0","description":"","name":"show_dropdown_if_dropdown_is_not_option1","type":"select","options":[{"label":"Option1","value":"Option1"},{"label":"Option2","value":"Option2"},{"label":"Option3","value":"Option3"}],"required":"0","uniq":"0","hidden":"0","readonly":"0","colspan":"1","sort":"6","default":"","select_size":1,"option_layout":"vertical","option_other":0,"randomize_options":0,"option_store":"value","option_show_values":0},{"id":"37314733","label":"Select
+        (Checkbox)","hide_label":"0","description":"","name":"select_checkbox","type":"checkbox","options":[{"label":"Option1","value":"Option1"},{"label":"Option2","value":"Option2"},{"label":"Option3","value":"Option3"}],"required":"0","uniq":"0","hidden":"0","readonly":"0","colspan":"1","sort":"7","default":"","option_layout":"vertical","option_other":"1","option_checkall":"0","randomize_options":0,"option_store":"value","option_show_values":0},{"id":"41111633","label":"Here''s
+        a checkbox question that is just so long the text goes on and on and on. I''m
+        just going to keep typing until the question is so large that some of the
+        text is no longer readable because it goes off the screen. How is a user supposed
+        to answers a question like this when they can''t see most of it. This is particularly
+        problematic on small iOS phones. So I''ll just type for a little while longer
+        until this text is so large that it 100%, definitely, positively will take
+        up at least the whole screen. Let''s hope this is enough.","hide_label":"0","description":"","name":"heres_a_checkbox_question_that_is_just_so_long_the_text_goes_on_and_on_and_on_im_just_going_to_keep_typing_until_the_question_is_so_large_that_some_of_the_text_is_no_longer_readable_because_it_goes_off_the_screen_how_is_a_user_supposed_to_answers_a_question_like_this_when_they_cant_see_most_of_it_this_is_particularly_problematic_on_small_ios_phones_so_ill_just_type_for_a_little_while_longer_until_this_text_is_so_large_that_it_100_definitely_positively_will_take_up_at_least_the_whole_screen_lets_hope_this_is_enough","type":"checkbox","options":[{"label":"Option1","value":"Option1"},{"label":"Option2","value":"Option2"},{"label":"Option3","value":"Option3"}],"required":"0","uniq":"0","hidden":"0","readonly":"0","colspan":"1","sort":"8","default":"","option_layout":"vertical","option_other":0,"option_checkall":0,"randomize_options":0,"option_store":"value","option_show_values":0},{"id":"41111634","label":"Here''s
+        a checkbox question that has really long answers to see how they look on the
+        screen","hide_label":"0","description":"","name":"heres_a_checkbox_question_that_has_really_long_answers_to_see_how_they_look_on_the_screen","type":"checkbox","options":[{"label":"Option1
+        - the answer to this is long enough that it spreads over multiple lines","value":"Option1
+        - the answer to this is long enough that it spreads over multiple lines"},{"label":"Option2
+        - the answer to this is long enough that it spreads over multiple lines","value":"Option2
+        - the answer to this is long enough that it spreads over multiple lines"},{"label":"Option3
+        - the answer to this is long enough that it spreads over multiple lines","value":"Option3
+        - the answer to this is long enough that it spreads over multiple lines"},{"label":"Option4
+        - the answer to this is long enough that it spreads over multiple lines","value":"Option4
+        - the answer to this is long enough that it spreads over multiple lines"},{"label":"Option5
+        - the answer to this is long enough that it spreads over multiple lines","value":"Option5
+        - the answer to this is long enough that it spreads over multiple lines"},{"label":"Option6
+        - the answer to this is long enough that it spreads over multiple lines","value":"Option6
+        - the answer to this is long enough that it spreads over multiple lines"},{"label":"Option7
+        - the answer to this is long enough that it spreads over multiple lines","value":"Option7
+        - the answer to this is long enough that it spreads over multiple lines"},{"label":"Option8
+        - the answer to this is long enough that it spreads over multiple lines","value":"Option8
+        - the answer to this is long enough that it spreads over multiple lines"},{"label":"Option9
+        - the answer to this is long enough that it spreads over multiple lines","value":"Option9
+        - the answer to this is long enough that it spreads over multiple lines"}],"required":"0","uniq":"0","hidden":"0","readonly":"0","colspan":"1","sort":"9","default":"","option_layout":"vertical","option_other":0,"option_checkall":0,"randomize_options":0,"option_store":"value","option_show_values":0},{"id":"37314784","label":"Number","hide_label":"0","description":"","name":"number","type":"number","options":"","required":"0","uniq":"0","hidden":"0","readonly":"0","colspan":"1","sort":"10","default":"","text_size":5,"min_value":"","max_value":"","currency":"pound","decimals":"2","slider":"0","placeholder":""},{"id":"37314745","label":"Number
+        Slider","hide_label":"0","description":"","name":"number_slider","type":"number","options":"","required":"1","uniq":"0","hidden":"0","readonly":"0","colspan":"1","sort":"11","default":"","text_size":5,"min_value":"0","max_value":"10","currency":"","decimals":"0","slider":"1","placeholder":""},{"id":"37383929","label":"Name","hide_label":"0","description":"","name":"name","type":"name","options":"","required":"0","uniq":"0","hidden":"0","readonly":"0","colspan":"1","sort":"12","default":"","text_size":50,"show_prefix":0,"show_middle":0,"show_initial":0,"show_suffix":0},{"id":"37314768","label":"Phone","hide_label":"0","description":"","name":"phone","type":"phone","options":"","required":"0","uniq":"1","hidden":"0","readonly":"0","colspan":"1","sort":"13","default":"","text_size":"20","format":"UK","phone_format":"national","placeholder":""},{"id":"37383914","label":"Email","hide_label":"0","description":"","name":"email","type":"email","options":[{"label":"Option1","value":"Option1"},{"label":"Option2","value":"Option2"},{"label":"Option3","value":"Option3"}],"required":"0","uniq":"0","hidden":"0","readonly":"0","colspan":"1","sort":"14","default":"","text_size":50,"maxlength":0,"confirm":0,"placeholder":""},{"id":"37314884","label":"Image","hide_label":"0","description":"","name":"image","type":"file","options":"","required":"0","uniq":"0","hidden":"0","readonly":"0","colspan":"1","sort":"15","default":"","text_size":"30","file_types":"jpg,jpeg,gif,png,bmp,tif,psd,pdf,doc,docx,xls,xlsx,txt,mp3,mp4,aac,wav,au,wmv,avi,mpg,mpeg,zip,gz,rar,z,tgz,tar,sitx"},{"id":"37750813","label":"Video","hide_label":"0","description":"","name":"video","type":"file","options":"","required":"0","uniq":"0","hidden":"0","readonly":"0","colspan":"1","sort":"16","default":"","text_size":"30","file_types":"avi,mpg,mpeg"},{"id":"40559422","label":"Matrix","hide_label":"0","description":"","name":"matrix","type":"matrix","options":"","required":"0","uniq":"0","hidden":"0","readonly":"0","colspan":"1","sort":"17","default":{"Item
+        1":[],"Item 2":[],"Item 3":[]},"row_choices":"Item 1\nItem 2\nItem 3","column_choices":"Very
+        Good\nGood\nFair\nPoor\nVery Poor","one_per_row":"1","one_per_column":"0","randomize_rows":"0"},{"id":"37314777","label":"Signature","hide_label":"0","description":"Use
+        your mouse or finger to draw your signature above","name":"signature","type":"signature","options":"","required":"0","uniq":"0","hidden":"0","readonly":"0","colspan":"1","sort":"18","default":""}]'
+    http_version:
+  recorded_at: Fri, 29 Jul 2016 14:12:04 GMT
+recorded_with: VCR 3.0.3
