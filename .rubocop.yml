@@ -4,8 +4,6 @@ Style/FrozenStringLiteralComment:
 AllCops:
   DisplayCopNames: true
   Exclude:
-    - 'Gemfile*'
-    - '*.gemspec'
     - 'vendor/**/*'
 
 Documentation:

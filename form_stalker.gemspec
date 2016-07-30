@@ -14,7 +14,7 @@ Gem::Specification.new do |gem|
   gem.description = 'Ruby FormStack API gem that can extract conditional logic'
   gem.homepage = 'https://github.com/streetbees/form-stalker'
 
-  gem.files = `git ls-files`.split($/)
+  gem.files = Dir['README.md', 'lib/**/*']
   gem.executables = gem.files.grep(%r{^bin/}).map { |f| File.basename(f) }
   gem.test_files = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ['lib']
