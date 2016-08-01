@@ -20,7 +20,8 @@ Make requests to FormStack and receive a sanitized response
 ```ruby
 response = FormStalker.form(1)
 
-if response.ok? # or (response.status == :ok)
+# don't trust (response.status == :ok) because Formstack API does not respect the HTTP error status
+if response.ok?
   form_data = response.data
 else
   response.status # will return a symbol representing FormStack's HTTP status

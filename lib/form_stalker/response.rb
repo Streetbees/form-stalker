@@ -67,7 +67,7 @@ module FormStalker
     end
 
     def ok?
-      status == :ok
+      status == :ok && (error.nil? || error == '')
     end
 
     protected ######################## PROTECTED ###############################

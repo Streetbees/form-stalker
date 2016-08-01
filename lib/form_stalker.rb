@@ -16,4 +16,12 @@ module FormStalker
   def client
     @client ||= Client.new(Config.new)
   end
+
+  def form(*args)
+    client.form(*args)
+  end
+
+  def form_fields(*args)
+    client.form_fields(*args)
+  end
 end

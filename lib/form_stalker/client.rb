@@ -1,4 +1,3 @@
-require 'form_stalker/data/base'
 require 'form_stalker/data/form'
 require 'form_stalker/data/form_field'
 require 'form_stalker/connection'
