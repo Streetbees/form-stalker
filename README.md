@@ -41,6 +41,8 @@ form_data.id # returns an integer
 form_data.created # returns a date
 form_data.deleted # returns a boolean
 form_data.fields # returns an array of FormStalker::Data::FormField instances
+# etc.
+form_data.attributes # returns a Hash will all of its data
 
 # and the one your are probably looking for
 form_data.logic # returns an instance of FormStalker::Data::FormFieldsLogic
@@ -76,7 +78,24 @@ form_data.logic.checks # returns an array of Hashes with the actual logic
 ]
 ```
 
-## 2) Instalation
+## 2) FormStalker.form_fields
+```ruby
+response = FormStalker.form_fields(1)
+
+raise response.error unless response.ok?
+
+form_fields = response.data # returns an array of FormStalker::Data::FormField instances
+
+form_fields.each do |form_fields_data|
+  form_fields_data.id # returns an integer
+  form_fields_data.required # returns an boolean
+
+  # etc.
+  form_fields_data.attributes # returns a Hash will all of its data
+end
+```
+
+## 4) Instalation
 
 Add this to your Gemfile:
 ```
