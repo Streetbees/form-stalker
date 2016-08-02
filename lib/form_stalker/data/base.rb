@@ -43,6 +43,10 @@ module FormStalker
 
         super(@parser.parse_attributes)
       end
+
+      def attributes_before_type_cast
+        parser.attributes_before_type_cast
+      end
     end
   end
 end

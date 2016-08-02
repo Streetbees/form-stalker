@@ -1,4 +1,5 @@
 require 'form_stalker/version'
+require 'form_stalker/helpers'
 require 'form_stalker/client'
 require 'form_stalker/config'
 
