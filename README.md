@@ -29,8 +29,14 @@ else
 end
 ```
 
-Now that you have a **FormStalker::Data::Form** instance, you can access its fields. For example:
+## 2) FormStalker.form
 ```ruby
+response = FormStalker.form(1)
+
+raise response.error unless response.ok?
+
+form_data = response.data
+
 form_data.id # returns an integer
 form_data.created # returns a date
 form_data.deleted # returns a boolean
