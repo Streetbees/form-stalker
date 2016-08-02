@@ -22,10 +22,10 @@ response = FormStalker.form(1)
 
 # don't trust (response.status == :ok) because Formstack API does not respect the HTTP error status
 if response.ok?
-  form_data = response.data
+  form_data = response.data # returns a FormStalker::Data::Form instance
 else
-  response.status # will return a symbol representing FormStack's HTTP status
-  response.error # will return a message string explaining the error
+  response.status # returns a symbol representing FormStack's HTTP status
+  response.error # returns a message string explaining the error
 end
 ```
 

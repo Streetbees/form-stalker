@@ -34,53 +34,53 @@ describe FormStalker::Client do
       it '@response.data.logic should have checks' do
         expect(@response.data.logic.checks).to eq [
           {
-            target: 37314714,
+            target: 37_314_714,
             action: 'Show',
             bool: 'AND',
-            fields: [41111633],
-            checks: [{ field: 41111633, condition: '==', option: 'Option1' }]
+            fields: [41_111_633],
+            checks: [{ field: 41_111_633, condition: '==', option: 'Option1' }]
           },
           {
-            target: 44337087,
+            target: 44_337_087,
             action: 'Show',
             bool: 'AND',
-            fields: [37314784],
-            checks: [{ field: 37314784, condition: '==', option: '0' }]
+            fields: [37_314_784],
+            checks: [{ field: 37_314_784, condition: '==', option: '0' }]
           },
           {
-            target: 37314734,
+            target: 37_314_734,
             action: 'Show',
             bool: 'AND',
-            fields: [37314784],
-            checks: [{ field: 37314784, condition: '==', option: '0' }]
+            fields: [37_314_784],
+            checks: [{ field: 37_314_784, condition: '==', option: '0' }]
           },
           {
-            target: 40952921,
+            target: 40_952_921,
             action: 'Show',
             bool: 'AND',
-            fields: [37314736],
-            checks: [{ field: 37314736, condition: '!=', option: 'Option1' }]
+            fields: [37_314_736],
+            checks: [{ field: 37_314_736, condition: '!=', option: 'Option1' }]
           },
           {
-            target: 37314733,
+            target: 37_314_733,
             action: 'Show',
             bool: 'AND',
-            fields: [37314736],
-            checks: [{ field: 37314736, condition: '==', option: 'Option3' }]
+            fields: [37_314_736],
+            checks: [{ field: 37_314_736, condition: '==', option: 'Option3' }]
           },
           {
-            target: 41111634,
+            target: 41_111_634,
             action: 'Show',
             bool: 'AND',
-            fields: [41111633],
-            checks: [{ field: 41111633, condition: '==', option: 'Option1' }]
+            fields: [41_111_633],
+            checks: [{ field: 41_111_633, condition: '==', option: 'Option1' }]
           },
           {
-            target: 37314784,
+            target: 37_314_784,
             action: 'Show',
             bool: 'AND',
-            fields: [37314745],
-            checks: [{ field: 37314745, condition: '==', option: '0' }]
+            fields: [37_314_745],
+            checks: [{ field: 37_314_745, condition: '==', option: '0' }]
           }
         ]
       end
