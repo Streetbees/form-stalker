@@ -29,6 +29,47 @@ else
 end
 ```
 
+Now that you have a **FormStalker::Data::Form** instance, you can access its fields. For example:
+```ruby
+form_data.id # returns an integer
+form_data.created # returns a date
+form_data.deleted # returns a boolean
+form_data.fields # returns an array of FormStalker::Data::FormField instances
+
+# and the one your are probably looking for
+form_data.logic # returns an instance of FormStalker::Data::FormFieldsLogic
+
+form_data.logic.logic_field_ids # returns an array of field ids that have logic
+form_data.logic.calc_field_ids # returns an array of field ids
+
+form_data.logic.checks # returns an array of Hashes with the actual logic
+
+# Example of what can be inside the #checks
+[
+  {
+    target: 37314714,
+    action: 'Show',
+    bool: 'AND',
+    fields: [41111633],
+    checks: [{ field: 41111633, condition: '==', option: 'Option1' }]
+  },
+  {
+    target: 40952921,
+    action: 'Show',
+    bool: 'AND',
+    fields: [37314736],
+    checks: [{ field: 37314736, condition: '!=', option: 'Option1' }]
+  }
+  {
+    target: 37314784,
+    action: 'Show',
+    bool: 'AND',
+    fields: [37314745],
+    checks: [{ field: 37314745, condition: '==', option: '0' }]
+  }
+]
+```
+
 ## 2) Instalation
 
 Add this to your Gemfile:
