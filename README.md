@@ -42,7 +42,7 @@ form_data.created # returns a date
 form_data.deleted # returns a boolean
 form_data.fields # returns an array of FormStalker::Data::FormField instances
 # etc.
-form_data.attributes # returns a Hash will all of its data
+form_data.attributes # returns a Hash with all of its data
 
 # and the one your are probably looking for
 form_data.logic # returns an instance of FormStalker::Data::FormFieldsLogic
@@ -91,7 +91,7 @@ form_fields.each do |form_fields_data|
   form_fields_data.required # returns an boolean
 
   # etc.
-  form_fields_data.attributes # returns a Hash will all of its data
+  form_fields_data.attributes # returns a Hash with all of its data
 end
 ```
 
