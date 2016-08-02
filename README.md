@@ -20,7 +20,7 @@ Make requests to FormStack and receive a sanitized response
 ```ruby
 response = FormStalker.form(1)
 
-# don't trust (response.status == :ok) because Formstack API does not respect the HTTP error status
+# don't trust (response.status == :ok) because Formstack API does not respect the HTTP status codes
 if response.ok?
   form_data = response.data # returns a FormStalker::Data::Form instance
 else
@@ -89,7 +89,6 @@ form_fields = response.data # returns an array of FormStalker::Data::FormField i
 form_fields.each do |form_fields_data|
   form_fields_data.id # returns an integer
   form_fields_data.required # returns an boolean
-
   # etc.
   form_fields_data.attributes # returns a Hash with all of its data
 end
