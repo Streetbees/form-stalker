@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    form_stalker (1.0.2)
+    form_stalker (1.0.3)
 
 GEM
   remote: https://rubygems.org/

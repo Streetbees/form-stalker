@@ -6,6 +6,18 @@ describe FormStalker::Client do
       @client ||= described_class.new(oauth_token: valid_oauth_token)
     end
 
+    context 'when sending form id 2358865' do
+      before do
+        VCR.use_cassette('form_2358865') do
+          @response = @client.form('2358865')
+        end
+      end
+
+      it '@response.data should have data' do
+        expect(@response.data).to be_an_instance_of FormStalker::Data::Form
+      end
+    end
+
     context 'when sending a valid id' do
       before do
         VCR.use_cassette('form_valid_id') do

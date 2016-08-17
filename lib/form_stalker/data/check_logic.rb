@@ -37,7 +37,7 @@ module FormStalker
                           .gsub('{', '{"')
                           .gsub(':', '":')
 
-        "\"#{string}"
+        ['"', '{'].include?(string[0]) ? string : "\"#{string}"
       end
     end
   end
