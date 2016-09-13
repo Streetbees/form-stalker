@@ -24,12 +24,18 @@ module FormStalker
       protected ####################### PROTECTED ##############################
 
       def js_to_json(js_object)
-        js_object.split(',').map(&:strip).map do |js_string|
+        split(js_object).map(&:strip).map do |js_string|
           escape_js_to_json(js_string)
         end.join(', ')
       end
 
       private ######################### PRIVATE ################################
+
+      def split(js_object)
+        js_object
+          .split(/(,)(?=(?:[^']|'[^']*')*$)/)
+          .reject { |string| string == ',' }
+      end
 
       def escape_js_to_json(js_string)
         string = js_string.tr('"', '\"')

@@ -1,0 +1,201 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.formstack.com/api/v2/form/2466810.json?oauth_token=valid_oauth_token
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.formstack.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Tue, 13 Sep 2016 18:37:10 GMT
+      P3p:
+      - CP="CURa ADMa DEVa PSAo PSDo OUR BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI
+        DSP COR"
+      Server:
+      - nginx
+      Set-Cookie:
+      - FormstackAdmin=fe0rt673gvcqp8p62ku6dm5907; path=/api/; secure; HttpOnly
+      - rgemail=subs%40streetbees.com; expires=Thu, 13-Oct-2016 18:37:10 GMT; Max-Age=2592000
+      - rgfirstname=Queen; expires=Thu, 13-Oct-2016 18:37:10 GMT; Max-Age=2592000
+      - rgfullname=Bee; expires=Thu, 13-Oct-2016 18:37:10 GMT; Max-Age=2592000
+      - rgisanonymous=false; expires=Thu, 13-Oct-2016 18:37:10 GMT; Max-Age=2592000
+      - rgisanonymous=false; expires=Thu, 13-Oct-2016 18:37:10 GMT; Max-Age=2592000
+      - rgisanonymous=true; expires=Thu, 13-Oct-2016 18:37:10 GMT; Max-Age=2592000
+      - rguserid=642682; expires=Thu, 13-Oct-2016 18:37:10 GMT; Max-Age=2592000
+      - rguserid=d8f406c8-5162-43fc-825f-fd645540b901; expires=Thu, 13-Oct-2016 18:37:10
+        GMT; Max-Age=2592000
+      - rguuid=false; expires=Thu, 13-Oct-2016 18:37:10 GMT; Max-Age=2592000
+      - rguuid=true; expires=Thu, 13-Oct-2016 18:37:10 GMT; Max-Age=2592000
+      X-Robots-Tag:
+      - noindex, nofollow
+      Content-Length:
+      - '3921'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":"2466810","name":"Testing Comma Problems","viewkey":"krws7Q0GpB","views":"0","created":"2016-09-12
+        06:13:53","updated":"2016-09-12 06:15:55","deleted":"0","db":"1","submissions":"0","submissions_unread":"0","submissions_today":0,"url":"https:\/\/streetbees.formstack.com\/forms\/testing_comma_problems","data_url":"","summary_url":"","rss_url":"","encrypted":false,"thumbnail_url":"https:\/\/s3.amazonaws.com\/files.formstack.com\/admin\/","submit_button_title":null,"inactive":false,"timezone":"Europe\/London","permissions":"full","folder":"-
+        Streetbees Tech","javascript":"<script type=\"text\/javascript\" src=\"https:\/\/streetbees.formstack.com\/forms\/js.php\/testing_comma_problems\"><\/script><noscript><a
+        href=\"https:\/\/streetbees.formstack.com\/forms\/testing_comma_problems\"
+        title=\"Online Form\">Online Form - Testing Comma Problems<\/a><\/noscript>","html":"<!DOCTYPE
+        html>\n<html lang=\"\">\n<head>\n<title>Testing Comma Problems<\/title>\n<meta
+        charset=\"utf-8\" \/>\n<meta name=\"viewport\" content=\"width=device-width,
+        initial-scale=1, maximum-scale=1\">\n<!--[if IE]>\n<link rel=\"stylesheet\"
+        type=\"text\/css\" media=\"all\" href=\"https:\/\/www.formstack.com\/forms\/css\/3\/ie.css?20140508\"
+        \/>\n<![endif]-->\n<!--[if IE 7]><link rel=\"stylesheet\" type=\"text\/css\"
+        media=\"all\" href=\"https:\/\/www.formstack.com\/forms\/css\/3\/ie7.css\"
+        \/><![endif]-->\n<!--[if IE 6]><link rel=\"stylesheet\" type=\"text\/css\"
+        media=\"all\" href=\"https:\/\/www.formstack.com\/forms\/css\/3\/ie6fixes.css\"
+        \/><![endif]-->\n<link rel=\"stylesheet\" type=\"text\/css\" href=\"\/\/static.formstack.com\/forms\/css\/3\/reset.css\"
+        \/>\n<link rel=\"stylesheet\" type=\"text\/css\" href=\"\/\/static.formstack.com\/forms\/css\/3\/jquery-ui.css\"
+        \/>\n<link rel=\"stylesheet\" type=\"text\/css\" href=\"\/\/static.formstack.com\/forms\/css\/3\/default-v4.css\"
+        \/>\n<link rel=\"stylesheet\" type=\"text\/css\" href=\"\/\/static.formstack.com\/forms\/css\/3\/light.css\"
+        \/>\n<link rel=\"stylesheet\" type=\"text\/css\" href=\"\/\/static.formstack.com\/forms\/..\/common\/css\/uil-static.css\"
+        \/>\n<link rel=\"stylesheet\" type=\"text\/css\" href=\"\/\/static.formstack.com\/forms\/css\/common\/dialogs.css\"
+        \/>\n<style type=\"text\/css\">\n<\/style>\n<\/head>\n<body class=\"fsBody\"
+        id=\"fsLocal\">\n<form method=\"post\" novalidate enctype=\"multipart\/form-data\"
+        action=\"https:\/\/www.formstack.com\/forms\/index.php\" class=\"fsForm fsSingleColumn
+        fsMaxCol1\" id=\"fsForm2466810\">\n<input type=\"hidden\" name=\"form\" value=\"2466810\"
+        \/>\n<input type=\"hidden\" name=\"viewkey\" value=\"krws7Q0GpB\" \/>\n<input
+        type=\"hidden\" name=\"hidden_fields\" id=\"hidden_fields2466810\" value=\"\"
+        \/>\n<input type=\"hidden\" name=\"_submit\" value=\"1\" \/>\n<input type=\"hidden\"
+        name=\"incomplete\" id=\"incomplete2466810\" value=\"\" \/>\n<input type=\"hidden\"
+        name=\"incomplete_password\" id=\"incomplete_password2466810\" \/>\n<input
+        type=\"hidden\" name=\"style_version\" value=\"3\" \/>\n<input type=\"hidden\"
+        id=\"viewparam\" name=\"viewparam\" value=\"598544\" \/>\n<div role=\"alert\"
+        id=\"requiredFieldsError\" style=\"display:none;\">Please fill in a valid
+        value for all required fields<\/div>\n<div role=\"alert\" id=\"invalidFormatError\"
+        style=\"display:none;\">Please ensure all values are in a proper format.<\/div>\n<div
+        role=\"alert\" id=\"resumeConfirm\" style=\"display:none;\">Are you sure you
+        want to leave this form and resume later?<\/div>\n<div role=\"alert\" id=\"resumeConfirmPassword\"
+        style=\"display: none;\">Are you sure you want to leave this form and resume
+        later? If so, please enter a password below to securely save your form.<\/div>\n<div
+        role=\"alert\" id=\"saveAndResume\" style=\"display: none;\">Save and Resume
+        Later<\/div>\n<div role=\"alert\" id=\"saveResumeProcess\" style=\"display:
+        none;\">Save and get link<\/div>\n<div role=\"alert\" id=\"fileTypeAlert\"
+        style=\"display:none;\">You must upload one of the following file types for
+        the selected field:<\/div>\n<div role=\"alert\" id=\"embedError\" style=\"display:none;\">There
+        was an error displaying the form. Please copy and paste the embed code again.<\/div>\n<div
+        role=\"alert\" id=\"applyDiscountButton\" style=\"display:none;\">Apply Discount<\/div>\n<div
+        role=\"alert\" id=\"dcmYouSaved\" style=\"display:none;\">You saved<\/div>\n<div
+        role=\"alert\" id=\"dcmWithCode\" style=\"display:none;\">with code<\/div>\n<div
+        role=\"alert\" id=\"submitButtonText\" style=\"display:none;\">Submit Form<\/div>\n<div
+        role=\"alert\" id=\"submittingText\" style=\"display:none;\">Submitting<\/div>\n<div
+        role=\"alert\" id=\"validatingText\" style=\"display:none;\">Validating<\/div>\n<div
+        role=\"alert\" id=\"autocaptureDisabledText\" style=\"display:none;\"><\/div>\n<div
+        role=\"alert\" id=\"paymentInitError\" style=\"display:none;\">There was an
+        error initializing the payment processor on this form. Please contact the
+        form owner to correct this issue.<\/div>\n<div role=\"alert\" id=\"checkFieldPrompt\"
+        style=\"display:none;\">Please check the field: <\/div>\n<div class=\"fsPage\"
+        id=\"fsPage2466810-1\">\n<div class=\"fsSection fs1Col\">\n<div id=\"fsRow2466810-1\"
+        class=\"fsRow fsFieldRow fsLastRow\">\n<div class=\"fsRowBody fsCell fsFieldCell
+        fsFirst fsLast fsLabelVertical fsSpan100\" id=\"fsCell45495510\" lang=\"en\">\n<p>This
+        survey is designed to evaluate if commas work in answer options when importing
+        from Formstack under the new system.\n<\/p>\n<\/div>\n<\/div>\n<div id=\"fsRow2466810-2\"
+        class=\"fsRow fsFieldRow fsLastRow\">\n<div class=\"fsRowBody fsCell fsFieldCell
+        fsFirst fsLast fsLabelVertical fsSpan100\" id=\"fsCell45495515\" lang=\"en\">\n<fieldset
+        id=\"label45495515\">\n<legend class=\"fsLabel fsLabelVertical\"><span>Radio
+        Buttons<\/span><\/legend>\n<div class=\"fieldset-content\">\n<label class=\"fsOptionLabel
+        vertical\" for=\"field45495515_1\"><input type=\"radio\" id=\"field45495515_1\"
+        name=\"field45495515\" value=\"Option1\" class=\"fsField vertical\" \/>Option1<\/label>\n<label
+        class=\"fsOptionLabel vertical\" for=\"field45495515_2\"><input type=\"radio\"
+        id=\"field45495515_2\" name=\"field45495515\" value=\"Option2, then text\"
+        class=\"fsField vertical\" \/>Option2, then text<\/label>\n<label class=\"fsOptionLabel
+        vertical\" for=\"field45495515_3\"><input type=\"radio\" id=\"field45495515_3\"
+        name=\"field45495515\" value=\"Option3, then text, then more text\" class=\"fsField
+        vertical\" \/>Option3, then text, then more text<\/label>\n<\/div><\/fieldset>\n<\/div>\n<\/div>\n<div
+        id=\"fsRow2466810-3\" class=\"fsRow fsFieldRow fsLastRow\">\n<div class=\"fsRowBody
+        fsCell fsFieldCell fsFirst fsLast fsLabelVertical fsSpan100\" id=\"fsCell45495516\"
+        lang=\"en\">\n<label id=\"label45495516\" class=\"fsLabel\" for=\"field45495516\">Dropdown
+        List                    <\/label>\n<select id=\"field45495516\" name=\"field45495516\"
+        size=\"1\" class=\"fsField\">\n<option value=\"Option1\">Option1<\/option>\n<option
+        value=\"Option2, then text\">Option2, then text<\/option>\n<option value=\"Option3,
+        then text, then more text\">Option3, then text, then more text<\/option>\n<\/select>\n<\/div>\n<\/div>\n<div
+        id=\"fsRow2466810-4\" class=\"fsRow fsFieldRow fsLastRow\">\n<div class=\"fsRowBody
+        fsCell fsFieldCell fsFirst fsLast fsLabelVertical fsSpan100\" id=\"fsCell45495517\"
+        lang=\"en\">\n<fieldset id=\"label45495517\">\n<legend class=\"fsLabel fsLabelVertical\"><span>Checkbox<\/span><\/legend>\n<div
+        class=\"fieldset-content\">\n<label class=\"fsOptionLabel vertical\" for=\"field45495517_1\"><input
+        type=\"checkbox\" id=\"field45495517_1\" name=\"field45495517[]\" value=\"Option1\"
+        class=\"fsField vertical\" \/>Option1<\/label>\n<label class=\"fsOptionLabel
+        vertical\" for=\"field45495517_2\"><input type=\"checkbox\" id=\"field45495517_2\"
+        name=\"field45495517[]\" value=\"Option2, then text\" class=\"fsField vertical\"
+        \/>Option2, then text<\/label>\n<label class=\"fsOptionLabel vertical\" for=\"field45495517_3\"><input
+        type=\"checkbox\" id=\"field45495517_3\" name=\"field45495517[]\" value=\"Option3,
+        then text, then more text\" class=\"fsField vertical\" \/>Option3, then text,
+        then more text<\/label>\n<\/div><\/fieldset>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<div
+        id=\"fsSubmit2466810\" class=\"fsSubmit fsPagination\">\n<button type=\"button\"
+        id=\"fsPreviousButton2466810\" class=\"fsPreviousButton\" value=\"Previous
+        Page\" style=\"display:none;\"><span class=\"fsFull\">Previous<\/span><span
+        class=\"fsSlim\">&larr;<\/span><\/button>\n<button type=\"button\" id=\"fsNextButton2466810\"
+        class=\"fsNextButton\" value=\"Next Page\" style=\"display:none;\"><span class=\"fsFull\">Next<\/span><span
+        class=\"fsSlim\">&rarr;<\/span><\/button>\n<input id=\"fsSubmitButton2466810\"\nclass=\"fsSubmitButton\"\nstyle=\"display:
+        block;\"\ntype=\"submit\"\nvalue=\"Submit Form\" \/>\n<div class=\"clear\"><\/div>\n<\/div>\n<script
+        type=\"text\/javascript\" src=\"\/\/static.formstack.com\/forms\/js\/3\/jquery.min.js\"><\/script>\n<script
+        type=\"text\/javascript\" src=\"\/\/static.formstack.com\/forms\/js\/3\/jquery-ui.min.js\"><\/script>\n<script
+        type=\"text\/javascript\" src=\"\/\/static.formstack.com\/forms\/js\/3\/scripts.js\"><\/script>\n<script
+        type=\"text\/javascript\" src=\"\/\/static.formstack.com\/forms\/js\/3\/analytics.js\"><\/script>\n<script
+        type=\"text\/javascript\" src=\"\/\/static.formstack.com\/forms\/js\/3\/google-phone-lib.js\"><\/script>\n<script
+        type=\"text\/javascript\">\n(function() {\nif (typeof sessionStorage !== ''undefined''
+        && sessionStorage.fsFonts) {\ndocument.documentElement.className = document.documentElement.className
+        += '' wf-active'';\n}\nvar pre = document.createElement(''link'');\npre.rel  =
+        ''preconnect'';\npre.href = ''https:\/\/fonts.googleapis.com\/'';\npre.setAttribute(''crossorigin'',
+        '''');\nvar s = document.getElementsByTagName(''head'')[0];\ns.appendChild(pre);\nvar
+        fontConfig = {\ngoogle: {\nfamilies: [\n''Lato:400,700''\n]\n},\ntimeout:
+        2000,\nactive: function() {\nif (typeof sessionStorage === ''undefined'')
+        {\nreturn;\n}\nsessionStorage.fsFonts = true;\n}\n};\nif (typeof WebFont ===
+        ''undefined'') {\nwindow.WebFontConfig = fontConfig;\nvar wf = document.createElement(''script'');\nwf.type  =
+        ''text\/javascript'';\nwf.async = ''true'';\nwf.src   = (''https:'' == document.location.protocol
+        ? ''https'' : ''http'') +\n'':\/\/ajax.googleapis.com\/ajax\/libs\/webfont\/1\/webfont.js'';\ns.appendChild(wf);\n}
+        else {\nWebFont.load(fontConfig);\n}\n})();\nif(window.addEventListener) {\nwindow.addEventListener(''load'',
+        loadFormstack, false);\n} else if(window.attachEvent) {\nwindow.attachEvent(''onload'',
+        loadFormstack);\n} else {\nloadFormstack();\n}\nfunction loadFormstack() {\nvar
+        form2466810 = new Formstack.Form(2466810, ''https:\/\/www.formstack.com\/forms\/'');\nform2466810.logicFields
+        = [];\nform2466810.calcFields = [];\nform2466810.init();\nform2466810.plugins.analytics
+        = new Formstack.Analytics(''https:\/\/www.formstack.com'', 2466810, form2466810);\nform2466810.plugins.analytics.trackTouch();\nform2466810.plugins.analytics.trackBottleneck();\nwindow.form2466810
+        = form2466810;\n};\n<\/script>\n<\/form>\n<img src=\"https:\/\/www.formstack.com\/forms\/count.php?2466810\"
+        alt=\"Form View Counter\" width=\"1\" height=\"1\" border=\"0\" \/>\n<div
+        class=\"fs-ngdialog fs-modal-medium fs-form-dialog fs-form-dialog--hidden\">\n<div
+        class=\"fs-ngdialog-overlay\"><\/div>\n<div class=\"fs-ngdialog-content\">\n<div
+        class=\"fs-modal__top fs-form-dialog__title\"><\/div>\n<div class=\"fs-modal__middle\">\n<div
+        class=\"fs-form-dialog__message\"><\/div>\n<label class=\"hidden\"\nfor=\"fsSaveResumePassword\">Enter
+        your save and resume password<\/label>\n<input type=\"password\"\nid=\"fsSaveResumePassword\"\nclass=\"fs-form-input
+        fs-form-dialog__password fs-form-dialog--hidden fs--mt20\" placeholder=\"Enter
+        your save and resume password\">\n<\/div>\n<div class=\"fs-modal__bottom\">\n<a
+        class=\"fs-form-dialog__cancel fs-btn2 fs-btn2--size_medium fs-btn2--style_edit-dark\"
+        title=\"Cancel\">\n<div class=\"fs-btn2__content\">\n<div class=\"fs-btn2__text\">\n<span
+        class=\"fs-form-dialog__button-text\">Cancel<\/span>\n<\/div>\n<\/div>\n<\/a>\n<a
+        class=\"fs-form-dialog__confirm fs-btn2 fs-btn2--size_medium fs-btn2--style_create
+        fs--float-right\" title=\"Confirm\">\n<div class=\"fs-btn2__content\">\n<div
+        class=\"fs-btn2__text\">\n<span class=\"fs-form-dialog__button-text\">Confirm<\/span>\n<\/div>\n<\/div>\n<\/a>\n<\/div>\n<\/div>\n<\/div>\n<\/body>\n<\/html>","fields":[{"id":"45495510","label":"","hide_label":"0","description":"","name":"","type":"richtext","options":"","required":"0","uniq":"0","hidden":"0","readonly":"0","colspan":"1","sort":"0","default":"","section_text":"<p>This
+        survey is designed to evaluate if commas work in answer options when importing
+        from Formstack under the new system.\n<\/p>","text_editor":"wysiwyg"},{"id":"45495515","label":"Radio
+        Buttons","hide_label":"0","description":"","name":"radio_buttons","type":"radio","options":[{"label":"Option1","value":"Option1"},{"label":"Option2,
+        then text","value":"Option2, then text"},{"label":"Option3, then text, then
+        more text","value":"Option3, then text, then more text"}],"required":"0","uniq":"0","hidden":"0","readonly":"0","colspan":"1","sort":"1","default":"","option_layout":"vertical","option_other":0,"randomize_options":0,"option_store":"value","option_show_values":0},{"id":"45495516","label":"Dropdown
+        List","hide_label":"0","description":"","name":"dropdown_list","type":"select","options":[{"label":"Option1","value":"Option1"},{"label":"Option2,
+        then text","value":"Option2, then text"},{"label":"Option3, then text, then
+        more text","value":"Option3, then text, then more text"}],"required":"0","uniq":"0","hidden":"0","readonly":"0","colspan":"1","sort":"2","default":"","select_size":1,"option_layout":"vertical","option_other":0,"randomize_options":0,"option_store":"value","option_show_values":0},{"id":"45495517","label":"Checkbox","hide_label":"0","description":"","name":"checkbox","type":"checkbox","options":[{"label":"Option1","value":"Option1"},{"label":"Option2,
+        then text","value":"Option2, then text"},{"label":"Option3, then text, then
+        more text","value":"Option3, then text, then more text"}],"required":"0","uniq":"0","hidden":"0","readonly":"0","colspan":"1","sort":"3","default":"","option_layout":"vertical","option_other":0,"option_checkall":0,"randomize_options":0,"option_store":"value","option_show_values":0}]}'
+    http_version:
+  recorded_at: Tue, 13 Sep 2016 18:37:10 GMT
+recorded_with: VCR 3.0.3
