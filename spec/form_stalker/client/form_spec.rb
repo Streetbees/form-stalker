@@ -18,6 +18,30 @@ describe FormStalker::Client do
       end
     end
 
+    context 'when sending form id 2466240' do
+      before do
+        VCR.use_cassette('form_2466240') do
+          @response = @client.form('2466240')
+        end
+      end
+
+      it '@response.data should have data' do
+        expect(@response.data).to be_an_instance_of FormStalker::Data::Form
+      end
+    end
+
+    context 'when sending form id 2466810' do
+      before do
+        VCR.use_cassette('form_2466810') do
+          @response = @client.form('2466810')
+        end
+      end
+
+      it '@response.data should have data' do
+        expect(@response.data).to be_an_instance_of FormStalker::Data::Form
+      end
+    end
+
     context 'when sending a valid id' do
       before do
         VCR.use_cassette('form_valid_id') do
