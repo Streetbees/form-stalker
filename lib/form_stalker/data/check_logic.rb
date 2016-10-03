@@ -31,7 +31,7 @@ module FormStalker
       private ######################### PRIVATE ################################
 
       def convert_keys(js_object)
-        js_object.gsub(/([a-z]+):/, '"\1":')
+        js_object.gsub(/([a-zA-Z]+):/, '"\1":')
       end
 
       def convert_values(js_object)
