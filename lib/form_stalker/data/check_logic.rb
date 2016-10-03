@@ -22,29 +22,27 @@ module FormStalker
       end
 
       protected ####################### PROTECTED ##############################
-
       def js_to_json(js_object)
-        split(js_object).map(&:strip).map do |js_string|
-          escape_js_to_json(js_string)
-        end.join(', ')
+        json_converted_keys = convert_keys(js_object)
+
+        convert_values(json_converted_keys)
       end
 
       private ######################### PRIVATE ################################
 
-      def split(js_object)
-        js_object
-          .split(/(,)(?=(?:[^']|'[^']*')*$)/)
-          .reject { |string| string == ',' }
+      def convert_keys(js_object)
+        js_object.gsub(/([a-z]+):/, '"\1":')
       end
 
-      def escape_js_to_json(js_string)
-        string = js_string.tr('"', '\"')
-                          .tr("'", '"')
-                          .gsub('{', '{"')
-                          .gsub(':', '":')
+      def convert_values(js_object)
+        js_object.gsub(/'(.*?(?<!\\))'/) do |match|
+          value = match
+            .gsub(/^'/, '').gsub(/'$/,'')
 
-        ['"', '{'].include?(string[0]) ? string : "\"#{string}"
+          "\"#{value}\""
+        end
       end
+
     end
   end
 end
