@@ -22,6 +22,7 @@ module FormStalker
       end
 
       protected ####################### PROTECTED ##############################
+
       def js_to_json(js_object)
         json_converted_keys = convert_keys(js_object)
 
@@ -36,13 +37,11 @@ module FormStalker
 
       def convert_values(js_object)
         js_object.gsub(/'(.*?(?<!\\))'/) do |match|
-          value = match
-            .gsub(/^'/, '').gsub(/'$/,'')
+          value = match.gsub(/^'/, '').gsub(/'$/, '')
 
           "\"#{value}\""
         end
       end
-
     end
   end
 end
