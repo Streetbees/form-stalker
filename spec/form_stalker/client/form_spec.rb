@@ -137,5 +137,17 @@ describe FormStalker::Client do
         expect(@response.error).to eq 'The form was not found'
       end
     end
+
+    context 'when sending form id 2488894' do
+      before do
+        VCR.use_cassette('form_2488894') do
+          @response = @client.form('2488894')
+        end
+      end
+
+      it '@response.data should have data' do
+        expect(@response.data).to be_an_instance_of FormStalker::Data::Form
+      end
+    end
   end
 end
